@@ -1,0 +1,31 @@
+@mixin bodysize($display: flex, $height: 80vh){
+    display: $display;
+    height: $height;
+}
+
+@mixin titledesign ($display: flex, $height: 10vh, $justify: center, $margintop: 1.25rem, $marginbottom: .8125rem){
+    display: $display;
+    height: $height;
+    justify-content: $justify;
+    margin-top: $margintop;
+    margin-bottom: $marginbottom;
+}
+
+@mixin shadow ($blur, $spread) {
+    box-shadow: .625rem .625rem #{$blur} -1.0625rem #{$spread};
+}
+
+@mixin container ($display, $direction, $justify, $gap){
+    display: $display;
+    flex-direction: $direction;
+    justify-content: $justify;
+    gap: $gap;
+}
+
+@mixin experience($display, $direction, $width, $itemalign, $textalign){
+    display: $display;
+    flex-direction: $direction;
+    width: $width;
+    align-items: $itemalign;
+    text-align: $textalign;
+}

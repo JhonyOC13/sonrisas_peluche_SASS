@@ -1,0 +1,96 @@
+@media all and (min-width: 768px) and (max-width: 1023px){
+    .experience-container{
+
+        img {
+            width: 11.25rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media all and (min-width: 391px) and (max-width: 480px){
+    .body-experience {
+        height: 180vh;
+    }
+
+    .experiencias{
+        height: 150vh;
+    }
+
+    .experience-container{
+        flex-direction: column;
+
+        img {
+            width: 13.125rem;
+        }
+
+        p {
+            margin-top: 1.875rem;
+            margin-bottom: 1.875rem;
+        }
+
+        .experience1, .experience2, .experience3{
+            width: 80vw;
+        }
+
+        .experience1{
+            p{
+                margin-bottom: 0;
+            }
+        }
+
+        .experience2{
+            p{
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 391px){
+    .body-experience{
+        height: 205vh;
+    }
+
+    .experienciastitulo{
+        h2{
+            font-size: 3.4375rem;
+        }
+    }
+
+    .experiencias{
+        height: 175vh;
+    }
+
+    .experience-container{
+        flex-direction: column;
+
+        img {
+            width: 13.125rem;
+        }
+
+        p {
+            margin-top: 1.875rem;
+            margin-bottom: 1.875rem;
+        }
+
+        .experience1, .experience2, .experience3{
+            width: 80vw;
+        }
+
+        .experience1{
+            p{
+                margin-bottom: 0;
+            }
+        }
+
+        .experience2{
+            p{
+                margin-top: 0;
+            }
+        }
+    }
+}

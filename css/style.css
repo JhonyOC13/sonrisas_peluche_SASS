@@ -13,8 +13,6 @@ button {
 }
 
 /*tercero partials de la carpeta "Layout"*/
-/*cuarto partials de la carpeta "Componenets"*/
-/*quito partials de media querys*/
 body {
   width: 100%;
   height: 100%;
@@ -47,22 +45,6 @@ nav a {
   color: #ffffff;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #703154;
-}
-header a {
-  text-decoration: none;
-}
-header a:hover {
-  text-decoration: underline;
-}
-header a img {
-  width: 12.5rem;
-}
-
 footer {
   height: 3.375 rem;
   margin-top: auto;
@@ -70,6 +52,50 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100vw;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0;
+}
+.contacto ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0.635rem 0;
+  padding-left: 0;
+  font-size: 0.875rem;
+  gap: 0.625rem;
+}
+.contacto a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.instagram img {
+  width: 2.8125rem;
+  height: auto;
+}
+
+.whatsapp img {
+  width: 2.5625rem;
+  height: auto;
+}
+
+.location img {
+  width: 2.5rem;
+  height: auto;
+}
+
+.sign {
+  display: flex;
+  justify-content: center;
+}
+.sign p {
+  font-size: xx-small;
+  margin: 0 0 0.3125rem;
 }
 
 .navegacion {
@@ -153,127 +179,6 @@ footer {
   text-decoration: none;
 }
 
-.contacto {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 0;
-}
-.contacto ul {
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  margin: 0.635rem 0;
-  padding-left: 0;
-  font-size: 0.875rem;
-  gap: 0.625rem;
-}
-.contacto a {
-  text-decoration: none;
-  color: #000000;
-}
-
-.instagram img {
-  width: 2.8125rem;
-  height: auto;
-}
-
-.whatsapp img {
-  width: 2.5625rem;
-  height: auto;
-}
-
-.location img {
-  width: 2.5rem;
-  height: auto;
-}
-
-.sign {
-  display: flex;
-  justify-content: center;
-}
-.sign p {
-  font-size: xx-small;
-  margin: 0 0 0.3125rem;
-}
-
-@media all and (min-width: 480px) and (max-width: 768px) {
-  .navegacion {
-    gap: 5rem;
-  }
-  .title1 {
-    padding-right: 7vw;
-  }
-  .title2 {
-    padding-left: 7vw;
-  }
-  .home {
-    background-size: cover;
-  }
-  .logo img {
-    margin-bottom: 3.75rem;
-  }
-  .cart {
-    padding-right: 20px;
-  }
-}
-@media all and (max-width: 480px) {
-  .navbar > .container-fluid {
-    justify-content: center !important;
-  }
-  .navegacion {
-    gap: 1.25rem;
-  }
-  .home {
-    margin-top: 0;
-    height: 44.5rem;
-  }
-  .icon img {
-    width: 38px;
-    height: auto;
-  }
-  .cart img {
-    width: 1.5625rem;
-    height: auto;
-  }
-  .navbar-toggler {
-    border: none;
-  }
-  .navbar-active {
-    color: #FFFFFF;
-  }
-  span img {
-    width: 2.1875rem;
-    height: auto;
-  }
-  .title1 {
-    font-size: 120%;
-    padding-right: 5vw;
-  }
-  .title2 {
-    font-size: 120%;
-    padding-left: 5vw;
-  }
-  footer a {
-    font-size: 0.375rem;
-  }
-  .instagram img {
-    width: 2.1875rem;
-    height: auto;
-  }
-  .whatsapp img {
-    width: 1.9375rem;
-    height: auto;
-  }
-  .location img {
-    width: 1.875rem;
-    height: auto;
-  }
-  .sign p {
-    font-size: 0.25rem;
-  }
-}
-/*Nosotros*/
 .aboutus {
   height: 70vh;
 }
@@ -316,62 +221,6 @@ footer {
   font-size: 1.125rem;
 }
 
-@media all and (min-width: 768px) and (max-width: 1023px) {
-  .aboutus {
-    height: 80vh;
-    background: url(../assets/Imagenes/Trazo_rosa.png) center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 0 15.25rem;
-  }
-  .nosotroscontenido {
-    flex-direction: column;
-    width: 100vw;
-    height: 20vh;
-  }
-  .nosotroscontenido img {
-    width: 12.75rem;
-    height: auto;
-  }
-  .aboutUs {
-    margin-top: 1.875rem;
-    align-items: center;
-    margin-left: 0;
-    background: none;
-  }
-  .aboutUs P {
-    padding: 1.625rem;
-    font-size: 1.125rem;
-  }
-}
-@media all and (max-width: 480px) {
-  .aboutus {
-    height: 80vh;
-    background: url(../assets/Imagenes/Trazo_rosa.png) center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 0 20.25rem;
-  }
-  .nosotroscontenido {
-    flex-direction: column;
-    width: 100vw;
-    height: 20vh;
-  }
-  .nosotroscontenido img {
-    width: 10.75rem;
-    height: auto;
-  }
-  .aboutUs {
-    margin-top: 1.25rem;
-    align-items: center;
-    margin-left: 0;
-    background: none;
-  }
-  .aboutUs P {
-    padding: 0 0.9375rem 0 0.9375rem;
-    font-size: 0.625rem;
-  }
-}
 .productostitulo {
   display: flex;
   height: 10vh;
@@ -383,45 +232,6 @@ footer {
 .products {
   height: 70vh;
   background: url("../assets/Imagenes/Trazo_rosa.png") center/auto no-repeat;
-}
-
-.product-container1, .product-container2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 1.25rem;
-}
-
-.product-container2 {
-  margin-top: 0.625rem;
-}
-
-.product-card {
-  width: 12.5rem;
-  height: 14.6875rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 0.0625rem solid black;
-  border-radius: 1.25rem;
-}
-.product-card img {
-  width: 7.125rem;
-  height: auto;
-}
-
-.add-cart img {
-  width: 1.875rem;
-  height: auto;
-}
-
-.product-info {
-  text-align: center;
-}
-.product-info h3 {
-  font-size: 1.125rem;
-  margin-top: 0.5rem;
 }
 
 .experienciastitulo {
@@ -499,71 +309,6 @@ footer {
   margin-bottom: 2.1875rem;
 }
 
-@media all and (min-width: 768px) and (max-width: 1023px) {
-  .experience-container img {
-    width: 11.25rem;
-  }
-  .experience-container p {
-    font-size: 1rem;
-  }
-}
-@media all and (min-width: 391px) and (max-width: 480px) {
-  body {
-    height: 180vh;
-  }
-  .experiencias {
-    height: 150vh;
-  }
-  .experience-container {
-    flex-direction: column;
-  }
-  .experience-container img {
-    width: 13.125rem;
-  }
-  .experience-container p {
-    margin-top: 1.875rem;
-    margin-bottom: 1.875rem;
-  }
-  .experience-container .experience1, .experience-container .experience2, .experience-container .experience3 {
-    width: 80vw;
-  }
-  .experience-container .experience1 p {
-    margin-bottom: 0;
-  }
-  .experience-container .experience2 p {
-    margin-top: 0;
-  }
-}
-@media all and (max-width: 391px) {
-  body {
-    height: 205vh;
-  }
-  .experienciastitulo h2 {
-    font-size: 3.4375rem;
-  }
-  .experiencias {
-    height: 175vh;
-  }
-  .experience-container {
-    flex-direction: column;
-  }
-  .experience-container img {
-    width: 13.125rem;
-  }
-  .experience-container p {
-    margin-top: 1.875rem;
-    margin-bottom: 1.875rem;
-  }
-  .experience-container .experience1, .experience-container .experience2, .experience-container .experience3 {
-    width: 80vw;
-  }
-  .experience-container .experience1 p {
-    margin-bottom: 0;
-  }
-  .experience-container .experience2 p {
-    margin-top: 0;
-  }
-}
 .cart-title {
   display: flex;
   height: 10vh;
@@ -619,6 +364,261 @@ table img {
 }
 table tfoot td {
   font-weight: bold;
+}
+
+/*cuarto partials de la carpeta "Componenets"*/
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #703154;
+}
+header a {
+  text-decoration: none;
+}
+header a:hover {
+  text-decoration: underline;
+}
+header a img {
+  width: 12.5rem;
+}
+
+.product-container1, .product-container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.product-container2 {
+  margin-top: 0.625rem;
+}
+
+.product-card {
+  width: 12.5rem;
+  height: 14.6875rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 0.0625rem solid black;
+  border-radius: 1.25rem;
+}
+.product-card img {
+  width: 7.125rem;
+  height: auto;
+}
+
+.add-cart img {
+  width: 1.875rem;
+  height: auto;
+}
+
+.product-info {
+  text-align: center;
+}
+.product-info h3 {
+  font-size: 1.125rem;
+  margin-top: 0.5rem;
+}
+
+/*quito partials de media querys*/
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .navegacion {
+    gap: 5rem;
+  }
+  .title1 {
+    padding-right: 7vw;
+  }
+  .title2 {
+    padding-left: 7vw;
+  }
+  .home {
+    background-size: cover;
+  }
+  .logo img {
+    margin-bottom: 3.75rem;
+  }
+  .cart {
+    padding-right: 20px;
+  }
+}
+@media all and (max-width: 480px) {
+  .navbar > .container-fluid {
+    justify-content: center !important;
+  }
+  .navegacion {
+    gap: 1.25rem;
+  }
+  .home {
+    margin-top: 0;
+    height: 44.5rem;
+  }
+  .icon img {
+    width: 38px;
+    height: auto;
+  }
+  .cart img {
+    width: 1.5625rem;
+    height: auto;
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-active {
+    color: #FFFFFF;
+  }
+  span img {
+    width: 2.1875rem;
+    height: auto;
+  }
+  .title1 {
+    font-size: 120%;
+    padding-right: 5vw;
+  }
+  .title2 {
+    font-size: 120%;
+    padding-left: 5vw;
+  }
+  footer a {
+    font-size: 0.375rem;
+  }
+  .instagram img {
+    width: 2.1875rem;
+    height: auto;
+  }
+  .whatsapp img {
+    width: 1.9375rem;
+    height: auto;
+  }
+  .location img {
+    width: 1.875rem;
+    height: auto;
+  }
+  .sign p {
+    font-size: 0.25rem;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .aboutus {
+    height: 80vh;
+    background: url(../assets/Imagenes/Trazo_rosa.png) center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 15.25rem;
+  }
+  .nosotroscontenido {
+    flex-direction: column;
+    width: 100vw;
+    height: 20vh;
+  }
+  .nosotroscontenido img {
+    width: 12.75rem;
+    height: auto;
+  }
+  .aboutUs {
+    margin-top: 1.875rem;
+    align-items: center;
+    margin-left: 0;
+    background: none;
+  }
+  .aboutUs P {
+    padding: 1.625rem;
+    font-size: 1.125rem;
+  }
+}
+@media all and (max-width: 480px) {
+  .aboutus {
+    height: 80vh;
+    background: url(../assets/Imagenes/Trazo_rosa.png) center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 20.25rem;
+  }
+  .nosotroscontenido {
+    flex-direction: column;
+    width: 100vw;
+    height: 20vh;
+  }
+  .nosotroscontenido img {
+    width: 10.75rem;
+    height: auto;
+  }
+  .aboutUs {
+    margin-top: 1.25rem;
+    align-items: center;
+    margin-left: 0;
+    background: none;
+  }
+  .aboutUs P {
+    padding: 0 0.9375rem 0 0.9375rem;
+    font-size: 0.625rem;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .experience-container img {
+    width: 11.25rem;
+  }
+  .experience-container p {
+    font-size: 1rem;
+  }
+}
+@media all and (min-width: 391px) and (max-width: 480px) {
+  .body-experience {
+    height: 180vh;
+  }
+  .experiencias {
+    height: 150vh;
+  }
+  .experience-container {
+    flex-direction: column;
+  }
+  .experience-container img {
+    width: 13.125rem;
+  }
+  .experience-container p {
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+  }
+  .experience-container .experience1, .experience-container .experience2, .experience-container .experience3 {
+    width: 80vw;
+  }
+  .experience-container .experience1 p {
+    margin-bottom: 0;
+  }
+  .experience-container .experience2 p {
+    margin-top: 0;
+  }
+}
+@media all and (max-width: 391px) {
+  .body-experience {
+    height: 205vh;
+  }
+  .experienciastitulo h2 {
+    font-size: 3.4375rem;
+  }
+  .experiencias {
+    height: 175vh;
+  }
+  .experience-container {
+    flex-direction: column;
+  }
+  .experience-container img {
+    width: 13.125rem;
+  }
+  .experience-container p {
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+  }
+  .experience-container .experience1, .experience-container .experience2, .experience-container .experience3 {
+    width: 80vw;
+  }
+  .experience-container .experience1 p {
+    margin-bottom: 0;
+  }
+  .experience-container .experience2 p {
+    margin-top: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

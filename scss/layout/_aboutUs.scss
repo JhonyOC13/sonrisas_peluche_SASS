@@ -1,0 +1,39 @@
+.aboutus {
+    height: 70vh;
+}
+
+.nosotrostitulo {
+    @include titledesign(flex, 10vh, center, 1.25rem, .8125rem )
+}
+
+.nosotroscontenido {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 62.5rem;
+    height: 30.5rem;
+}
+
+.nosotroscontenido img {
+    width: 18.75rem;
+    height: auto;
+    border-radius: 3.125rem;
+    @include shadow(2.5625rem, rgba(0, 0, 0, 0.75));
+    
+}
+
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 28.125rem;
+    margin-left: 4.25rem;
+    background: url("../assets/Imagenes/Trazo_rosa.png") center/auto no-repeat ;
+
+    p {
+        font-size: 1.125rem;
+    }
+}

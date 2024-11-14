@@ -1,0 +1,63 @@
+.experienciastitulo{
+    @include titledesign(flex, 10vh, center, 1.25rem, .8125rem)
+}
+
+.experiencias{
+    @include bodysize(flex, 65vh );
+    background: url("../assets/Imagenes/Trazo_rosa.png") center/auto no-repeat;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience-container {
+    @include container(flex,row ,space-evenly , 2.5rem );
+}
+
+.experience1 {
+
+    @include experience(flex,column ,27vw ,center ,center);
+
+    img {
+        width: 13.75rem;
+        border-radius: 1.25rem;
+        filter: drop-shadow(0 0 .625rem rgba(0, 0, 0,.8));
+    }
+
+    p {
+        margin-top: 2.1875rem;
+        margin-bottom: 2.1875rem;
+    }
+}
+
+.experience2{
+
+    @include experience(flex,column ,27vw ,center ,center,);
+
+    img {
+        width: 13.75rem;
+        border-radius: 1.25rem;
+        filter: drop-shadow(0 0 .625rem rgba(0, 0, 0,.8));
+    }
+
+    p {
+        margin-top: 2.1875rem;
+        margin-bottom: 2.1875rem;
+    }
+}
+
+.experience3{
+    
+    @include experience(flex,column ,27vw ,center ,center );
+
+    img {
+        width: 13.75rem;
+        border-radius: 1.25rem;
+        filter: drop-shadow(0 0 .625rem rgba(0, 0, 0,.8));
+    }
+
+    p {
+        margin-top: 2.1875rem;
+        margin-bottom: 2.1875rem;
+    }
+}

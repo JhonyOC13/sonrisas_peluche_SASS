@@ -1,0 +1,69 @@
+@media all and (min-width: 768px) and (max-width: 1023px){
+
+    .aboutus{
+        height: 80vh;
+        background: url(../assets/Imagenes/Trazo_rosa.png) center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 0 15.25rem ;
+    }
+
+    .nosotroscontenido{
+        flex-direction: column;
+        width: 100vw;
+        height: 20vh;
+    }
+
+    .nosotroscontenido img{
+        width: 12.75rem;
+        height: auto;
+    }
+
+    .aboutUs{
+        margin-top: 1.875rem;
+        align-items: center;
+        margin-left: 0;
+        background: none;
+
+
+        P {
+            padding: 1.625rem;
+            font-size: 1.125rem;
+        }
+    }
+}
+
+@media all and (max-width: 480px){
+
+    .aboutus{
+        height: 80vh;
+        background: url(../assets/Imagenes/Trazo_rosa.png) center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 0 20.25rem ;
+    }
+
+    .nosotroscontenido{
+        flex-direction: column;
+        width: 100vw;
+        height: 20vh;
+    }
+
+    .nosotroscontenido img{
+        width: 10.75rem;
+        height: auto;
+    }
+
+    .aboutUs{
+        margin-top: 1.25rem;
+        align-items: center;
+        margin-left: 0;
+        background: none;
+
+
+        P {
+            padding: 0 .9375rem 0 .9375rem;
+            font-size: .625rem;
+        }
+    }
+}

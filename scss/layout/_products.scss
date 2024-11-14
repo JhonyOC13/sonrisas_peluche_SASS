@@ -1,0 +1,8 @@
+.productostitulo {
+    @include titledesign(flex, 10vh, center, 1.25rem, .8125rem)
+}
+
+.products{
+    height: 70vh;
+    background: url("../assets/Imagenes/Trazo_rosa.png") center/auto no-repeat;
+}

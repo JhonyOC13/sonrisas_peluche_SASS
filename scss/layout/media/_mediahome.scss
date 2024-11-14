@@ -1,0 +1,98 @@
+@media all and (min-width: 480px) and (max-width: 768px){
+    
+    .navegacion{
+        gap: 5rem;
+    }
+    
+    .title1{
+        padding-right: 7vw;   
+    }
+
+    .title2{
+        padding-left: 7vw;
+    }
+
+    .home{
+        background-size: cover;
+    }
+
+    .logo img{
+        margin-bottom: 3.75rem;
+    }
+
+    .cart{
+        padding-right: 20px;
+    }
+
+}
+
+@media all and (max-width: 480px){
+    .navbar>.container-fluid {
+        justify-content: center !important;
+    }
+
+    .navegacion{
+        gap: 1.25rem;
+    }
+
+    .home {
+        margin-top: 0;
+        height: 44.5rem;
+    }
+
+    .icon img{
+        width: 38px;
+        height: auto;
+    }
+
+    .cart img{
+        width: 1.5625rem;
+        height: auto;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-active{
+        color: #FFFFFF;
+    }
+
+    span img {
+        width: 2.1875rem;
+        height: auto;
+    }
+
+    .title1{
+        font-size: 120%;
+        padding-right: 5vw;   
+    }
+
+    .title2{
+        font-size: 120%;
+        padding-left: 5vw;
+    }
+
+    footer a {
+        font-size: .375rem;
+    } 
+
+    .instagram img {
+        width: 2.1875rem;
+        height: auto;
+    }
+    
+    .whatsapp img {
+        width: 1.9375rem;
+        height: auto;
+    }
+    
+    .location img {
+        width: 1.875rem;
+        height: auto;
+    }
+
+    .sign p{
+        font-size: .25rem;
+    }
+}
