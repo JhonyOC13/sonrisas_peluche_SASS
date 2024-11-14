@@ -77,19 +77,37 @@
         font-size: .375rem;
     } 
 
-    .instagram img {
-        width: 2.1875rem;
-        height: auto;
+    .instagram  {
+        a span {
+            display: none;
+        }
+
+        img {
+            width: 2.1875rem;
+            height: auto;
+        }
     }
     
-    .whatsapp img {
-        width: 1.9375rem;
-        height: auto;
+    .whatsapp {
+        a span {
+            display: none;
+        }
+
+        img {
+            width: 1.9375rem;
+            height: auto;
+        }
     }
-    
-    .location img {
-        width: 1.875rem;
-        height: auto;
+
+    .location {
+        a span {
+            display: none;
+        }
+
+        img {
+            width: 1.875rem;
+            height: auto;
+        }
     }
 
     .sign p{

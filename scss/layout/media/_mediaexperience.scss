@@ -13,11 +13,12 @@
 
 @media all and (min-width: 391px) and (max-width: 480px){
     .body-experience {
-        height: 180vh;
+        height: 145vh;
     }
 
     .experiencias{
-        height: 150vh;
+        position: relative;
+        top: 18.75rem;
     }
 
     .experience-container{

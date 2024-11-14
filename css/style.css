@@ -483,13 +483,22 @@ header a img {
   footer a {
     font-size: 0.375rem;
   }
+  .instagram a span {
+    display: none;
+  }
   .instagram img {
     width: 2.1875rem;
     height: auto;
   }
+  .whatsapp a span {
+    display: none;
+  }
   .whatsapp img {
     width: 1.9375rem;
     height: auto;
+  }
+  .location a span {
+    display: none;
   }
   .location img {
     width: 1.875rem;
@@ -565,10 +574,11 @@ header a img {
 }
 @media all and (min-width: 391px) and (max-width: 480px) {
   .body-experience {
-    height: 180vh;
+    height: 145vh;
   }
   .experiencias {
-    height: 150vh;
+    position: relative;
+    top: 18.75rem;
   }
   .experience-container {
     flex-direction: column;
