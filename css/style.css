@@ -536,13 +536,13 @@ footer {
 }
 @media all and (max-width: 391px) {
   body {
-    height: 210vh;
+    height: 205vh;
   }
   .experienciastitulo h2 {
     font-size: 3.4375rem;
   }
   .experiencias {
-    height: 180vh;
+    height: 175vh;
   }
   .experience-container {
     flex-direction: column;
