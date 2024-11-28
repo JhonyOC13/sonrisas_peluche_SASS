@@ -46,7 +46,6 @@ nav a {
 }
 
 footer {
-  height: 3.375 rem;
   margin-top: auto;
   background-color: #d9d9d9;
   position: absolute;
@@ -357,7 +356,7 @@ table th, table td {
   text-align: center;
 }
 table img {
-  width: 110px;
+  width: 6.875rem;
   height: auto;
   margin-top: 0.625rem;
   margin-bottom: 0.625rem;
@@ -572,62 +571,112 @@ header a img {
     font-size: 1rem;
   }
 }
-@media all and (min-width: 391px) and (max-width: 480px) {
-  .body-experience {
-    height: 145vh;
-  }
-  .experiencias {
-    position: relative;
-    top: 18.75rem;
-  }
-  .experience-container {
+@media all and (max-width: 480px) {
+  body {
+    display: flex;
     flex-direction: column;
   }
-  .experience-container img {
-    width: 13.125rem;
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
   }
-  .experience-container p {
-    margin-top: 1.875rem;
-    margin-bottom: 1.875rem;
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  .contacto ul {
+    margin: 0.125rem 0;
+  }
+  .body-experience {
+    height: auto;
+    margin-bottom: 5rem;
+  }
+  .experienciastitulo {
+    max-width: 100%;
+  }
+  .experiencias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: auto;
+  }
+  .experience-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+    gap: 1.25rem;
   }
   .experience-container .experience1, .experience-container .experience2, .experience-container .experience3 {
     width: 80vw;
   }
-  .experience-container .experience1 p {
-    margin-bottom: 0;
+  .experience-container .experience1 img, .experience-container .experience2 img, .experience-container .experience3 img {
+    width: 100%;
+    max-width: 13.125rem;
   }
-  .experience-container .experience2 p {
-    margin-top: 0;
+  .experience-container p {
+    margin: 1rem 0;
+    font-size: 0.875rem;
   }
 }
-@media all and (max-width: 391px) {
-  .body-experience {
-    height: 205vh;
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .product-container1 {
+    margin: 1.875rem;
   }
-  .experienciastitulo h2 {
-    font-size: 3.4375rem;
+  .product-container2 {
+    margin: 1.875rem;
   }
-  .experiencias {
-    height: 175vh;
-  }
-  .experience-container {
+}
+@media all and (max-width: 480px) {
+  main {
+    display: flex;
     flex-direction: column;
+    justify-content: flex-start;
   }
-  .experience-container img {
-    width: 13.125rem;
+  .products {
+    height: auto;
+    margin-bottom: 5rem;
   }
-  .experience-container p {
-    margin-top: 1.875rem;
-    margin-bottom: 1.875rem;
+  .product-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  .experience-container .experience1, .experience-container .experience2, .experience-container .experience3 {
-    width: 80vw;
+  .product-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  .experience-container .experience1 p {
-    margin-bottom: 0;
+}
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .purchaseStatusList {
+    width: 90vw;
+    gap: 8.5rem;
   }
-  .experience-container .experience2 p {
-    margin-top: 0;
+  table {
+    width: 90vw;
+  }
+  table img {
+    width: 5.9375rem;
+  }
+}
+@media all and (max-width: 480px) {
+  .purchaseStatusList {
+    width: 90vw;
+    gap: 2.5rem;
+  }
+  table {
+    width: 90vw;
+  }
+  table img {
+    width: 5rem;
   }
 }
 

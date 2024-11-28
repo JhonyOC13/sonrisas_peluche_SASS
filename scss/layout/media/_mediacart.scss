@@ -1,0 +1,33 @@
+@media all and (min-width: 768px) and (max-width: 1023px){
+
+    .purchaseStatusList {
+        width: 90vw;
+        gap: 8.5rem;
+    }
+
+    table {
+        width: 90vw;
+
+        img {
+            width: 5.9375rem;
+        }
+    }
+
+}
+
+@media all and (max-width: 480px) {
+
+    .purchaseStatusList {
+        width: 90vw;
+        gap: 2.5rem;
+    }
+
+    table {
+        width: 90vw;
+
+        img {
+           width: 5rem; 
+        }
+    }
+
+}
