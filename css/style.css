@@ -285,6 +285,9 @@ h5 {
   align-items: center;
   text-align: center;
 }
+.experience2 h5 {
+  margin-top: 0;
+}
 .experience2 img {
   width: 13.75rem;
   border-radius: 1.25rem;

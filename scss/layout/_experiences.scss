@@ -38,6 +38,10 @@ h5{
 
     @include experience(flex,column ,27vw ,center ,center,);
 
+    h5{
+        margin-top: 0;
+    }
+
     img {
         width: 13.75rem;
         border-radius: 1.25rem;
